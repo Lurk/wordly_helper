@@ -5,6 +5,7 @@ version = 3
 [[package]]
 name = "a_thing"
 version = "0.1.0"
+source = "git+https://github.com/Lurk/a_thing.git#4670701c7334043ae39663bf76f8f1804ddd36a4"
 
 [[package]]
 name = "wordly"

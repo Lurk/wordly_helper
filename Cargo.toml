@@ -6,4 +6,4 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-a_thing={path="/Users/Lurk/src/pets/dict"}
+a_thing={git="https://github.com/Lurk/a_thing.git"}
