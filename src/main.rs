@@ -14,11 +14,12 @@ fn main() -> Result<(), Error> {
             .not_contains_chars("")
             .positional_contains_chars(&[None, None, None, None, None])
             .positional_not_contains_chars(&[None, None, None, None, None])
+            .take(10)
             .apply();
 
         filter.end();
 
-        println!("{:#?}", words.iter().take(10).collect::<Vec<&String>>());
+        println!("{:#?}", words);
     }
     whole.end();
     Ok(())
