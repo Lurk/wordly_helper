@@ -4,6 +4,8 @@
 the dictionary is
 from [guess_my_word repo](https://github.com/powerlanguage/guess-my-word/blob/master/wordlist/sowpods.txt)
 
+intended to be a showcase how awesome [a_thing](https://github.com/Lurk/a_thing) is
+
 ## API
 
 ### [POST] /api/word
