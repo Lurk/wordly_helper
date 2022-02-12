@@ -1,7 +1,7 @@
 use a_thing::filters::contains_chars;
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Serialize, Debug)]
 pub struct Rules {
     contains: String,
     not_contains: String,
