@@ -16,7 +16,7 @@ fn positional_string_to_vec(str: &str) -> Vec<Option<char>> {
         .collect()
 }
 
-pub fn get_word(rules: Rules, dict: &[String]) -> String {
+pub fn get_word(rules: &Rules, dict: &[String]) -> String {
     let positional_contains = positional_string_to_vec(&rules.positional_contains);
     let mut v: Vec<Vec<Option<char>>> = vec![];
     let mut filters = contains_chars(dict, rules.contains.as_str())

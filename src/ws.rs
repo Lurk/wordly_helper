@@ -33,7 +33,7 @@ impl StreamHandler<Result<ws::Message, ws::ProtocolError>> for WordWs {
             Ok(ws::Message::Text(text)) => {
                 if let Ok(req) = serde_json::from_str::<WsReq>(&text) {
                     let start = Instant::now();
-                    let word = get_word(req.rules, &self.dict);
+                    let word = get_word(&req.rules, &self.dict);
                     println!("[{}] ws word: {:?}", Utc::now(), start.elapsed());
                     ctx.text(serde_json::to_string(&WsRes { id: req.id, word }).unwrap())
                 }
