@@ -1,8 +1,10 @@
 # [Wordle](https://www.powerlanguage.co.uk/wordle/) game cheat api
 
 
-the dictionary is
-from [guess_my_word repo](https://github.com/powerlanguage/guess-my-word/blob/master/wordlist/sowpods.txt)
+~~the dictionary is
+from [guess_my_word repo](https://github.com/powerlanguage/guess-my-word/blob/master/wordlist/sowpods.txt)~~
+
+the dictionary is from [english-words](https://github.com/dwyl/english-words) repo. (filtered and sorted)
 
 intended to be a showcase how awesome [a_thing](https://github.com/Lurk/a_thing) is
 
