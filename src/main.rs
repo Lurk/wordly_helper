@@ -50,7 +50,7 @@ async fn main() -> std::io::Result<()> {
       .route("/api/word", web::post().to(word))
       .route("/api/ws", web::get().to(ws_handler))
   })
-    .bind("0.0.0.0:8080")?
+    .bind("0.0.0.0:80")?
     .run()
     .await
 }
