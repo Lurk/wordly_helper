@@ -18,7 +18,7 @@ async fn word(rules: web::Json<Rules>, dict: web::Data<Vec<String>>) -> Result<S
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
-    let d = from_file("./data/words_alpha5.txt")?;
+    let d = from_file("./data/sowpods_5.txt")?;
     HttpServer::new(move || {
         let cors = Cors::permissive();
 
