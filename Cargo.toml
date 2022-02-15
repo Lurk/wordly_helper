@@ -7,7 +7,7 @@ license = "MIT"
 
 [package.metadata.deb]
 assets = [
-  ["target/release/wordle_api", "usr/bin", "755"],
+  ["target/release/wordle_api", "usr/bin/wordle_api", "755"],
   ["data/sowpods_5.txt", "etc/wordle_api/sowpods_5.txt", "644"],
   ["readme.md", "usr/share/doc/wordle_api/README", "644"],
 ]
