@@ -5,7 +5,12 @@ authors = ["Serhiy Barhamon"]
 edition = "2021"
 license = "MIT"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[package.metadata.deb]
+assets = [
+  ["target/release/wordle_api", "usr/bin", "755"],
+  ["data/sowpods_5.txt", "etc/wordle_api/sowpods_5.txt", "644"],
+  ["readme.md", "usr/share/doc/wordle_api/README", "644"],
+]
 
 [dependencies]
 a_thing={git="https://github.com/Lurk/a_thing.git"}
