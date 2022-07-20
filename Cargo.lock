@@ -5,7 +5,7 @@ version = 3
 [[package]]
 name = "a_thing"
 version = "0.1.0"
-source = "git+https://github.com/Lurk/a_thing.git#0a0ce23a53a723c4ce4cc9caa7c30c218da0a028"
+source = "git+https://github.com/Lurk/a_thing.git#0143a43e7115c18e094707a7b7c9c1095a0c74ee"
 
 [[package]]
 name = "actix"
