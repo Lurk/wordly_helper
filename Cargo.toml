@@ -1,5 +1,6 @@
 [package]
 name = "wordle_api"
+description = "api for Wordle cheat"
 version = "0.1.0"
 authors = ["Serhiy Barhamon"]
 edition = "2021"
